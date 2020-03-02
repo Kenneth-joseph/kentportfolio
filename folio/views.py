@@ -6,5 +6,5 @@ from django.views.generic import ListView, DetailView
 
 # Create your views here.
 
-class HomePage(ListView):
+class HomePage(TemplateView):
     template_name = 'home.html'
