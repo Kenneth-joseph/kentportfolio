@@ -85,4 +85,15 @@
 
   .jumbotron{
  background-color:deepskyblue;
+ /* margin:0 auto; */
   }
+  .card-text{
+      color:black;
+  }
+
+.gif{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
