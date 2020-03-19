@@ -8,3 +8,7 @@ from django.views.generic import ListView, DetailView
 
 class HomePage(TemplateView):
     template_name = 'home.html'
+
+
+class AboutPage(TemplateView):
+    template_name = 'home.html'

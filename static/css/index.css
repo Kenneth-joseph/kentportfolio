@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 *{
     font-family: 'Hind Madurai', sans-serif;
 }
@@ -79,10 +79,26 @@
     padding-top: .6rem;
   }
 
-  #grt{
-      font-size:30px;
-  }
+ .md-pills .nav-link.active {
+        color: #fff;
+        background-color: #616161;
+      }
+      button.close {
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        padding-right: 1rem;
+        padding-top: .6rem;
+      }
 
+
+  #grt{
+      font-size:40px;
+  }
+.grt1{
+      font-family: 'Open Sans Condensed', sans-serif;
+      letter-spacing:1px;
+   }
   .jumbotron{
  background-color:deepskyblue;
  /* margin:0 auto; */
