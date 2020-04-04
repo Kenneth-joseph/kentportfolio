@@ -1,6 +1,7 @@
 {% extends 'base.html'%}
 {%block content %}
-<h3 class="font-weight-bold text-center grey-text text-uppercase large mb-4 mt-5" id="welcome">Welcome</h3>
+<h3 class="font-weight-bold text-center grey-text text-uppercase large mb-4 mt-5" id="welcome"
+	xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">Welcome</h3>
 <hr class="w-header my-4">
 <div class="row">
     <div class="col-md-7 pt-3">
@@ -440,21 +441,122 @@
 <h3 class="font-weight-bold text-center grey-text text-uppercase large mb-4 mt-5" id="skills">Skills</h3>
 <hr class="w-header my-4">
 
-<div class="row">
-	<div class="col-md-2"></div>
-	<div class="col-md-8 skills">
-		<div class="css">
-			<i class="fab fa-css3-alt fa-4x "><span style="font-size:20px;vertical-align:middle;margin-left:10px;" class="font-weight-bold">CSS</span></i>
-		</div>
-		<div class="css mt-3 ml-3"><i class="fab fa-html5 fa-4x"><span style="font-size:20px;vertical-align:middle;margin-left:10px;" class="font-weight-bold">HTML</span></i></div>
-		<div class="css mt-3 ml-5"><i class="fab fa-python fa-4x"><span style="font-size:20px;vertical-align:middle;margin-left:11px;" class="font-weight-bold">PYTHON</span></i></div>
-		<div class="css mt-3 "style="margin-left:79px;"><i class="fab fa-js fa-4x"><span style="font-size:20px;vertical-align:middle;margin-left:11px;" class="font-weight-bold">JAVASCRIPT</span></i></div>
-		<div class="css mt-3 "style="margin-left: 80px"><i class="fas fa-database fa-4x"><span style="font-size:20px;vertical-align:middle;margin-left:11px;" class="font-weight-bold">DATABASES</span></i></div>
-		<div class="css mt-3 "style="margin-left: 45px"><i class="fab fa-github fa-4x"><span style="font-size:20px;vertical-align:middle;margin-left:11px;" class="font-weight-bold">GITHUB</span></i></div>
+<!--<div class="row">-->
+<!--	<div class="col-md-2"></div>-->
+<!--	<div class="col-md-8 skills">-->
+<!--		<div class="css">-->
+<!--			<i class="fab fa-css3-alt fa-4x "><span style="font-size:20px;vertical-align:middle;margin-left:10px;" class="font-weight-bold">CSS</span></i>-->
+<!--		</div>-->
+<!--		<div class="css mt-3 ml-3"><i class="fab fa-html5 fa-4x"><span style="font-size:20px;vertical-align:middle;margin-left:10px;" class="font-weight-bold">HTML</span></i></div>-->
+<!--		<div class="css mt-3 ml-5"><i class="fab fa-python fa-4x"><span style="font-size:20px;vertical-align:middle;margin-left:11px;" class="font-weight-bold">PYTHON</span></i></div>-->
+<!--		<div class="css mt-3 "style="margin-left:79px;"><i class="fab fa-js fa-4x"><span style="font-size:20px;vertical-align:middle;margin-left:11px;" class="font-weight-bold">JAVASCRIPT</span></i></div>-->
+<!--		<div class="css mt-3 "style="margin-left: 80px"><i class="fas fa-database fa-4x"><span style="font-size:20px;vertical-align:middle;margin-left:11px;" class="font-weight-bold">DATABASES</span></i></div>-->
+<!--		<div class="css mt-3 "style="margin-left: 45px"><i class="fab fa-github fa-4x"><span style="font-size:20px;vertical-align:middle;margin-left:11px;" class="font-weight-bold">GITHUB</span></i></div>-->
 
 
-	</div>
-	<div class="col-md-2"></div>
+<!--	</div>-->
+<!--	<div class="col-md-2"></div>-->
+<!--</div>-->
+
+
+<!-- Vertical Steppers -->
+<div class="row mt-1">
+	<div class="col-md-1"></div>
+  <div class="col-md-10 " style="background-color:#1babcc">
+
+    <!-- Stepers Wrapper -->
+	  <div class="step">
+     <ul class="stepper stepper-vertical">
+
+      <!-- First Step -->
+      <li class="">
+        <a href="#!">
+          <span class="circle ">1</span>
+			<span class="label font-weight-bold">HTML</span>
+
+        </a>
+<!--    <div class="step-title waves-effect waves-dark">Step 1</div>-->
+		  <div class="step-content grey lighten-3">
+				  <i class="fab fa-html5 fa-2x" style=""></i>
+               <p class="pt-2">UI, styling and Design</p>
+		  </div>
+      </li>
+
+      <!-- Second Step -->
+      <li class="">
+
+        <!--Section Title -->
+        <a href="#!">
+          <span class="circle">2</span>
+          <span class="label font-weight-bold">CSS</span>
+        </a>
+        <div class="step-content grey lighten-3">
+			<i class="fab fa-css3-alt fa-2x "></i>
+               <p class="pt-2">UI, styling and Design</p>
+		  </div>
+      </li>
+
+      <!-- Third Step -->
+      <li class="">
+        <a href="#!">
+          <span class="circle">3</span>
+          <span class="label font-weight-bold"> JAVASCRIPT </span>
+        </a>
+		  <div class="step-content grey lighten-3">
+			<i class="fab fa-js fa-2x"></i>
+               <p class="pt-2">UI Design and Backend</p>
+		  </div>
+      </li>
+
+      <!-- Fourth Step -->
+      <li>
+        <a href="#!">
+          <span class="circle">4</span>
+          <span class="label font-weight-bold">PYTHON</span>
+        </a>
+		  <div class="step-content grey lighten-3">
+			<i class="fab fa-python fa-2x"></i>
+               <p class="pt-2">UI Design and Backend</br> Django,Flask and RESTApi's</p>
+		  </div>
+      </li>
+
+		 <!-- Fifth  step -->
+		 <li>
+        <a href="#!">
+          <span class="circle">5</span>
+          <span class="label font-weight-bold">DATABASES</span>
+        </a>
+		  <div class="step-content grey lighten-3">
+			<i class="fas fa-database fa-2x"></i>
+			  <p class="">Data management and storage</br>
+			  PostgresSQL and MYSQL</p>
+		  </div>
+      </li>
+
+		 <!-- Sixth  step -->
+
+
+		 <li>
+        <a href="#!">
+          <span class="circle">6</span>
+          <span class="label font-weight-bold">GITHUB</span>
+        </a>
+		  <div class="step-content grey lighten-3">
+			<i class="fab fa-github fa-2x"></i>
+			  <p>Online Code Storage and</br>
+			  Team Collaboration</p>
+		  </div>
+      </li>
+
+    </ul>
+		  </div>
+    <!-- /.Stepers Wrapper -->
+
+  </div>
+	<div class="col-md-1"></div>
 </div>
 
+<!-- Steppers Navigation -->
+
+<!-- /.Vertical Steppers -->
 {%endblock%}
